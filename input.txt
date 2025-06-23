@@ -11,7 +11,7 @@ audio_format = m4a
 preferred_quality = 192
 redownload_missing = true
 
-[playlist1]
+[playlist2]
 save_path = F:\Music\Cool
 video_url = https://youtube.com/playlist?list=XXXX
 audio_format = mp3
