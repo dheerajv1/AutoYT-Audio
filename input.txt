@@ -1,0 +1,19 @@
+[manual]
+save_path = F:\Music\Manual
+audio_format = mp3
+preferred_quality = 256
+redownload_missing = true
+
+[playlist1]
+save_path = F:\Music\Chill
+video_url = https://youtube.com/playlist?list=XXXX
+audio_format = m4a
+preferred_quality = 192
+redownload_missing = true
+
+[playlist1]
+save_path = F:\Music\Cool
+video_url = https://youtube.com/playlist?list=XXXX
+audio_format = mp3
+preferred_quality = 320
+redownload_missing = true
