@@ -20,7 +20,7 @@
 ## ⚙️ Requirements
 
 - Python
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp)-"Only python repository is required"
 - [FFmpeg](https://ffmpeg.org/download.html)
 
 ```bash
