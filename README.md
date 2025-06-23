@@ -144,16 +144,6 @@ pause
 
 ---
 
-## 🙈 .gitignore Sample
-
-```gitignore
-__pycache__/
-*.pyc
-cookies.txt
-.env
-```
-
----
 
 ## 📃 License
 
