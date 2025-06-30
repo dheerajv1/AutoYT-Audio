@@ -13,7 +13,7 @@
 - 🧠 Smart duplicate detection
 - 🎨 Metadata and thumbnail embedding (for supported formats)
 - 🔐 Private playlist support via `cookies.txt`
-- 🎚️ Customizable bitrate (128 / 192 / 256 / 320 / auto)
+- 🎚️ Customizable bitrate (128 / 192 / 256 / auto)
 
 ---
 
@@ -65,8 +65,8 @@ redownload_missing = false
 [playlist2]
 save_path = F:\Music\Workout
 video_url = https://youtube.com/playlist?list=YYYY
-audio_format = flac
-preferred_quality = 320
+audio_format = m4a
+preferred_quality = 256
 redownload_missing = true
 ```
 
@@ -75,7 +75,7 @@ redownload_missing = true
 | `save_path`         | Folder to save audio files                                   |
 | `video_url`         | Playlist URL (YouTube or YouTube Music)                      |
 | `audio_format`      | One of `mp3`, `m4a`, `aac`, `wav`, etc.       |
-| `preferred_quality` | Audio bitrate: 128 / 192 / 256 / 320 / `0` for best available |
+| `preferred_quality` | Audio bitrate: 128 / 192 / 256  / `0` for best available |
 | `redownload_missing`| Re-download if file was deleted (`true` or `false`)          |
 
 
@@ -89,7 +89,6 @@ redownload_missing = true
 | 128   | Medium (smallest file size)        |
 | 192   | Good balance                       |
 | 256   | High quality (recommended)         |
-| 320   | Very high (larger size)            |
 | 0     | Auto / Best from YouTube           |
 
 ---
@@ -116,8 +115,7 @@ Batch mode? (y/n):
 ## 🖼 Metadata & Thumbnail Support
 
 - Automatically embeds **thumbnails** and **tags** using FFmpeg
-- Applies only to formats that support metadata: `mp3`, `m4a`, `flac`, `alac`
-- Skips metadata if format doesn't support it (e.g., `opus`, `wav`, etc.)
+- Applies only to formats that support metadata: `mp3`, `m4a`
 
 ---
 
