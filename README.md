@@ -1,13 +1,13 @@
 # 🎵 AutoYT-Audio
 
-**AutoYT-Audio** is a Python-based YouTube and YouTube Music **playlist downloader** that extracts high-quality audio in formats like `.mp3`, `.m4a`, `.aac`, `.flac`, and more using `yt-dlp` and `FFmpeg`. It supports both manual downloads and batch processing via `input.txt`. This tool supports **playlist URLs only** — single video downloads are not supported.
+**AutoYT-Audio** is a Python-based YouTube and YouTube Music **playlist downloader** that extracts high-quality audio in formats like `.mp3`, `.m4a`, `.aac`and more using `yt-dlp` and `FFmpeg`. It supports both manual downloads and batch processing via `input.txt`. This tool supports **playlist URLs only** — single video downloads are not supported.
 
 ---
 
 ## 🚀 Features
 
 - 🎧 Download audio from YouTube and YouTube Music
-- 📁 Output as `.mp3`, `.m4a`, `.aac`, `.flac`, `.opus`, `.wav`, `.alac`, etc.
+- 📁 Output as `.mp3`, `.m4a`, `.aac`, `.wav` etc.
 - 📂 Batch download from multiple playlists
 - 🔁 Skip or re-download missing files
 - 🧠 Smart duplicate detection
@@ -74,11 +74,11 @@ redownload_missing = true
 | --------------------|--------------------------------------------------------------|
 | `save_path`         | Folder to save audio files                                   |
 | `video_url`         | Playlist URL (YouTube or YouTube Music)                      |
-| `audio_format`      | One of `mp3`, `m4a`, `aac`, `flac`, `opus`, `wav`, etc.       |
+| `audio_format`      | One of `mp3`, `m4a`, `aac`, `wav`, etc.       |
 | `preferred_quality` | Audio bitrate: 128 / 192 / 256 / 320 / `0` for best available |
 | `redownload_missing`| Re-download if file was deleted (`true` or `false`)          |
 
-⚠️ Only formats like `mp3`, `m4a`, `flac`, and `alac` support metadata and thumbnail embedding.
+
 
 ---
 
